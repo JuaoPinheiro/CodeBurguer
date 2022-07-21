@@ -5,9 +5,9 @@ module.exports = {
     await queryInterface.createTable('categories', {
       id: {
         type: Sequelize.INTEGER,
-        allownull: false,
+        allowNull: false,
         autoIncrement: true,
-        primarykey: true,
+        primaryKey: true,
       },
       name: {
         type: Sequelize.STRING,
